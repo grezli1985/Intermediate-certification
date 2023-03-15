@@ -48,8 +48,7 @@ def deleteNote(notes):
                 notes.pop(i)
                 print("Примечание удалено!")
             else:
-                print(
-                    "Incorrect input, please make sure to not enter a number higher than notes amount!")
+                print("Неправильный ввод, убедитесь, что вы не ввели число больше, чем количество!")
         except ValueError:
             print("Неверный ввод, пожалуйста, введите число!")
     else:
